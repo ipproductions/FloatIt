@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Float Element",
+  "version": "1.0",
+  "description": "Float a right-clicked element in the top-left corner.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
