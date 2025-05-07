@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Float Element",
+  "name": "FloatIt",
   "version": "1.0",
   "description": "Float a right-clicked element in the top-left corner.",
   "permissions": [
