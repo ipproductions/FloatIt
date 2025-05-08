@@ -14,4 +14,3 @@ chrome.contextMenus.create({
       chrome.tabs.sendMessage(tab.id, { action: "floatElement" });
     }
   });
-  
